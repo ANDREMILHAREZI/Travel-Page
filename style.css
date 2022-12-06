@@ -1,0 +1,82 @@
+/*corpo da pagina*/
+body{align-items: center;
+ 
+margin-top: 50px;
+
+}
+
+/*Texto Hiperlink pagina */
+h1{
+    font-family: 'Dosis';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40px;
+}
+/*Texto Paragrafo pagina*/
+p{
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 22px;
+color: #828282;
+
+}
+/*Pagina alinhamento*/
+#app {
+    text-align: center;
+    align-items:center ;
+
+    }
+/*Cores das palavras destacadas*/
+span{
+color:#EE24FF;
+}
+/*Rodapé*/
+footer{
+    list-style: none;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    color: #3F3D56;
+    
+}
+/*Rodapé "listas"*/
+ul{
+list-style: none;
+display: flex;
+color: #3F3D56;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+gap: 50px;
+margin-left: 540px;
+margin-top: 40px;
+margin-bottom: 0px;
+
+}
+/*Rodapé  Listas Cores Alinhamento*/
+ul li a{
+  text-decoration: none;
+  color: #3F3D56;
+  display: flex;
+}
+/*linha "invisível" entre o texto e rodapé*/
+hr{
+    margin-left: 317px;
+    margin-right: 316px;
+    border: 1px solid #eceff2;
+    
+
+}
+/*Ondas decorativa*/
+.wave{
+    background-image: url(./Images/Wave.png);
+    height: 111px;
+    background-repeat: no-repeat;
+    background-size: 200vh;
+    margin:0px -10px -10px;
+}
+
